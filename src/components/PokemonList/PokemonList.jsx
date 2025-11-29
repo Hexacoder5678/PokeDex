@@ -58,7 +58,7 @@ function PokemonList() {
         {pokemonList.map((pokemon) => (
           <Pokemon
             key={pokemon.id}
-            id={pokemon.id}          // ✔ FIXED
+            id={pokemon.id}          // ✔ FIXEDzz
             name={pokemon.name}
             image={pokemon.image}
             types={pokemon.types}

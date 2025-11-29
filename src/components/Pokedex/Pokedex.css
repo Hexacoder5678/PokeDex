@@ -1,9 +1,16 @@
 .pokedex-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
-.pokedex-wrapper h1 {
-    letter-spacing: 10px;
+.pokedex-title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.search-box-info {
+  margin-bottom: 20px;
+  font-size: 18px;
+  opacity: 0.7;
 }
